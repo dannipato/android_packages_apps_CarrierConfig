@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+
+    <!-- Enable VoLTE on the device -->
+    <bool name="carrier_volte_available_bool">true</bool>
+
+    <!-- Enable Enhanced 4G LTE (VoLTE) by default -->
+    <bool name="enhanced_4g_lte_on_by_default_bool">true</bool>
+
+    <!-- Hide the VoLTE toggle from settings -->
+    <bool name="hide_enhanced_4g_lte_bool">false</bool>
+
+    <!-- Make the VoLTE toggle editable -->
+    <bool name="editable_enhanced_4g_lte_bool">true</bool>
+
+    <!-- Enable SMS over IP -->
+    <bool name="carrier_ims_gba_required_bool">true</bool>
+
+    <!-- Set carrier supports SS over UT (Supplementary Services) -->
+    <bool name="carrier_supports_ss_over_ut_bool">true</bool>
+
+    <!-- Enable Wi-Fi calling -->
+    <bool name="carrier_wfc_ims_available_bool">true</bool>
+
+    <!-- Wi-Fi calling enabled by default -->
+    <bool name="wfc_ims_enabled_bool">true</bool>
+
+    <!-- Show Wi-Fi calling preference settings -->
+    <bool name="carrier_wfc_supports_wifi_only_bool">true</bool>
+
+</carrier_config>
